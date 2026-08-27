@@ -1,0 +1,175 @@
+{
+    "hints": {
+        "visited_nodes.sum": 484,
+        "visited_nodes.average": 484.0
+    },
+    "info": {
+        "copyrights": [
+            "GraphHopper",
+            "OpenStreetMap contributors"
+        ],
+        "took": 3,
+        "road_data_timestamp": "2026-08-20T04:00:00Z"
+    },
+    "paths": [
+        {
+            "distance": 3166.054,
+            "weight": 26331.0,
+            "time": 585990,
+            "transfers": 0,
+            "legs": [],
+            "points_encoded": true,
+            "points_encoded_multiplier": 100000.0,
+            "bbox": [
+                105.833866,
+                21.028277,
+                105.85388,
+                21.037213
+            ],
+            "points": "ccj_CuqaeSCX{AOeGKe@JMFk@\\iB~@u@b@KJCRSxCIr@MXAP?PBNDPLXkBAGbBDZFTvBrDdAlBr@`Br@dBdAdC`BrDxEdL~@hBt@v@Sr@IJcH~GGL{CxCWVMBi@d@ITc@b@SNyT`TIEGAG?MDEFCHAH@HBHFDFBH@HAFEDL@L_ApJIAI~@SdB?BC?MAAFqIcA",
+            "instructions": [
+                {
+                    "distance": 13.737,
+                    "heading": 279.23,
+                    "sign": 0,
+                    "interval": [
+                        0,
+                        1
+                    ],
+                    "text": "Ti\u1ebfp t\u1ee5c",
+                    "time": 4945,
+                    "street_name": ""
+                },
+                {
+                    "distance": 556.497,
+                    "sign": 2,
+                    "interval": [
+                        1,
+                        18
+                    ],
+                    "text": "R\u1ebd ph\u1ea3i v\u00e0o Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng",
+                    "time": 62606,
+                    "street_name": "Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng"
+                },
+                {
+                    "distance": 60.143,
+                    "sign": 3,
+                    "interval": [
+                        18,
+                        19
+                    ],
+                    "text": "R\u1ebd ph\u1ea3i ngay l\u1eadp t\u1ee9c v\u00e0o Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5",
+                    "time": 7733,
+                    "street_name": "Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5"
+                },
+                {
+                    "distance": 927.466,
+                    "sign": -2,
+                    "interval": [
+                        19,
+                        31
+                    ],
+                    "text": "R\u1ebd tr\u00e1i v\u00e0o Ph\u1ed1 H\u00e0ng Gai",
+                    "time": 119247,
+                    "street_name": "Ph\u1ed1 H\u00e0ng Gai"
+                },
+                {
+                    "distance": 385.152,
+                    "sign": 2,
+                    "interval": [
+                        31,
+                        36
+                    ],
+                    "text": "R\u1ebd ph\u1ea3i v\u00e0o \u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7",
+                    "time": 38516,
+                    "street_name": "\u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7"
+                },
+                {
+                    "distance": 633.203,
+                    "sign": 0,
+                    "interval": [
+                        36,
+                        43
+                    ],
+                    "text": "Ti\u1ebfp t\u1ee5c \u0111\u1ebfn \u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7",
+                    "time": 71237,
+                    "street_name": "\u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7"
+                },
+                {
+                    "exit_number": 4,
+                    "distance": 288.64,
+                    "sign": 6,
+                    "exited": true,
+                    "turn_angle": -4.34,
+                    "interval": [
+                        43,
+                        60
+                    ],
+                    "text": "T\u1ea1i v\u00f2ng xoay, r\u1ebd l\u1ed1i r\u1ebd 4 v\u00e0o \u0111\u01b0\u1eddng Ph\u1ed1 Ch\u00f9a M\u1ed9t C\u1ed9t",
+                    "time": 100976,
+                    "street_name": "Ph\u1ed1 Ch\u00f9a M\u1ed9t C\u1ed9t"
+                },
+                {
+                    "distance": 5.036,
+                    "sign": 2,
+                    "interval": [
+                        60,
+                        61
+                    ],
+                    "text": "R\u1ebd ph\u1ea3i",
+                    "time": 3022,
+                    "street_name": ""
+                },
+                {
+                    "distance": 33.699,
+                    "sign": -2,
+                    "interval": [
+                        61,
+                        62
+                    ],
+                    "text": "R\u1ebd tr\u00e1i",
+                    "time": 20219,
+                    "street_name": ""
+                },
+                {
+                    "distance": 70.47,
+                    "sign": -7,
+                    "interval": [
+                        62,
+                        67
+                    ],
+                    "text": "\u1ede b\u00ean tr\u00e1i",
+                    "time": 42282,
+                    "street_name": ""
+                },
+                {
+                    "distance": 192.011,
+                    "sign": 2,
+                    "interval": [
+                        67,
+                        68
+                    ],
+                    "text": "R\u1ebd ph\u1ea3i v\u00e0o Ph\u1ed1 \u00d4ng \u00cdch Khi\u00eam",
+                    "time": 115207,
+                    "street_name": "Ph\u1ed1 \u00d4ng \u00cdch Khi\u00eam"
+                },
+                {
+                    "distance": 0.0,
+                    "sign": 4,
+                    "last_heading": 10.851820639777793,
+                    "interval": [
+                        68,
+                        68
+                    ],
+                    "text": "K\u1ebft th\u00fac!",
+                    "time": 0,
+                    "street_name": ""
+                }
+            ],
+            "details": {},
+            "ascend": 29.35992431640625,
+            "descend": 34.08489990234375,
+            "snapped_waypoints": "ccj_CuqaeSmu@zyB"
+        }
+    ]
+}

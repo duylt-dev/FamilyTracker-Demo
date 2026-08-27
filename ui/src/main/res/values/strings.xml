@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chuỗi cho mọi màn hình sống ở :ui (PRD §7.5). Không đặt trong :app/strings.xml — :ui không
+     phụ thuộc ngược :app (LLM.md §2), nên composable ở đây không thấy R của :app. Xem LLM.md §12
+     (đã sửa) — mỗi module giữ strings.xml của chính chuỗi nó vẽ ra. -->
+<resources>
+    <string name="action_continue">Tiếp tục</string>
+    <string name="action_skip">Để sau</string>
+
+    <string name="permission_notifications_title">Thông báo zone</string>
+    <string name="permission_notifications_description">FamilyTracker cần quyền thông báo để báo cho bạn biết khi có người vào hoặc rời khỏi một khu vực đã đánh dấu.</string>
+
+    <string name="permission_fine_location_title">Vị trí của bạn</string>
+    <string name="permission_fine_location_description">FamilyTracker cần quyền vị trí chính xác để hiển thị bạn trên bản đồ và ghi lại lộ trình di chuyển.</string>
+
+    <string name="permission_background_location_title">Cho phép mọi lúc</string>
+    <string name="permission_background_location_description">Để nhận thông báo vào/rời khu vực cả khi ứng dụng đã đóng, hãy chọn \"Cho phép mọi lúc\" ở màn Cài đặt tiếp theo.</string>
+
+    <!-- Công tắc này bật CẢ hai: ghi vị trí của mình (chấm xanh + Lịch sử) VÀ chuyển động của
+         các thành viên được theo dõi (`MemberMovementSimulator`, nguồn sinh sự kiện zone). Nhãn
+         phải nói đúng phạm vi đó, không chỉ "vị trí" của riêng mình. -->
+    <string name="map_tracking_toggle_label">Theo dõi gia đình</string>
+    <string name="map_banner_notifications_off">Thông báo đang tắt — sự kiện zone vẫn được ghi vào Timeline</string>
+    <string name="map_banner_location_degraded">Chưa cấp quyền vị trí — bản đồ đang ở chế độ giảm chức năng</string>
+    <string name="map_member_updated_at">Cập nhật %1$s</string>
+    <!-- Routing plan phase-05 — nút mở màn dẫn đường, chỉ hiện khi đã chọn một thành viên KHÁC self. -->
+    <string name="map_navigate_action">Chỉ đường</string>
+    <!-- phase-07, US-47/D8 — lớp phủ không đóng được khi mất internet đã kiểm chứng. Không có
+         chuỗi nút nào: lớp phủ không có nút.
+         Câu thứ hai nói "KHÔNG CẦN mạng", không phải "vẫn đang chạy" (sửa ở phase-06, §13 Fixed
+         #24): bản đầu khẳng định theo dõi đang chạy, mà câu đó SAI khi người dùng mở app lúc
+         ngoại tuyến với công tắc đang tắt. Cách viết này đúng ở CẢ HAI trạng thái, và nói cho
+         người dùng biết công tắc vẫn bấm được — điều chỉ đúng sau khi lớp phủ được đặt xuống DƯỚI
+         `TrackingToggle` trong `MapScreen`. Đổi chuỗi mà không đổi thứ tự đó là nói dối. -->
+    <string name="map_no_internet_title">Không có kết nối internet</string>
+    <string name="map_no_internet_message">Màn hình Bản đồ cần internet để lấy tuyến đường. Việc theo dõi không cần mạng — công tắc theo dõi vẫn dùng được bình thường. Thông báo này tự đóng khi có mạng trở lại.</string>
+
+    <string name="bottom_nav_map">Bản đồ</string>
+    <string name="bottom_nav_zone">Zone</string>
+    <string name="bottom_nav_history">Lịch sử</string>
+    <string name="bottom_nav_timeline">Nhật ký</string>
+
+    <string name="error_generic">Đã có lỗi xảy ra, thử lại sau</string>
+    <string name="error_network">Không có kết nối mạng, thử lại sau</string>
+    <string name="error_not_found">Không tìm thấy dữ liệu</string>
+    <string name="error_validation">Dữ liệu không hợp lệ</string>
+
+    <!-- Zone List — US-12→US-15 (phase-06) -->
+    <string name="zone_list_title">Zone</string>
+    <string name="zone_list_empty_message">Nhấn giữ trên bản đồ để tạo zone đầu tiên</string>
+    <string name="zone_list_create_action">Tạo zone</string>
+    <!-- Zone theo dõi THÀNH VIÊN được follow, không theo dõi self — xem LLM.md §8.1. Hai chuỗi
+         "Đang ở trong"/"Ở ngoài" cũ nói về self và đã bị xoá cùng `ZoneListItem.isInside`. -->
+    <string name="zone_members_inside_empty">Chưa có ai trong zone</string>
+    <string name="zone_radius_value">%1$d m</string>
+    <string name="zone_delete_dialog_title">Xoá zone?</string>
+    <string name="zone_delete_dialog_message">Xoá \"%1$s\"? Không thể hoàn tác.</string>
+    <string name="zone_delete_dialog_confirm">Xoá</string>
+    <string name="zone_delete_dialog_cancel">Huỷ</string>
+
+    <!-- Zone Editor — US-16→US-21 (phase-06) -->
+    <string name="zone_editor_title_new">Zone mới</string>
+    <string name="zone_editor_title_edit">Sửa zone</string>
+    <string name="zone_editor_save_action">Lưu</string>
+    <string name="zone_editor_name_label">Tên zone</string>
+    <string name="zone_editor_radius_label">Bán kính</string>
+    <string name="zone_editor_low_radius_warning">⚠ Dưới 100m có thể không ổn định</string>
+    <string name="zone_editor_notify_enter_label">Thông báo khi vào</string>
+    <string name="zone_editor_notify_exit_label">Thông báo khi rời</string>
+    <string name="zone_editor_limit_warning">Android giới hạn %1$d zone cho mỗi ứng dụng</string>
+
+    <!-- History — US-27→US-32 (phase-08) -->
+    <string name="history_title">Lịch sử</string>
+    <string name="history_day_today">Hôm nay (%1$s)</string>
+    <string name="history_stats_speed">%1$s km/h</string>
+    <string name="history_session_selected_mark">✓</string>
+    <string name="history_empty_title">Chưa có lộ trình nào trong ngày này</string>
+    <string name="history_empty_hint">Dùng nút \"Mô phỏng lộ trình\" để tạo dữ liệu minh hoạ</string>
+
+    <!-- Route Simulator — US-33 (phase-09). Đặt ở đây, KHÔNG phải app/strings.xml (phase-09 file
+         phase liệt kê app/strings.xml, nhưng nút này vẽ ra bởi :ui — xem LLM.md §12 "mỗi module
+         giữ strings.xml của chính chuỗi nó vẽ ra", đã sửa từ phase-04, và chính header của file
+         này nhắc lại luật đó). -->
+    <string name="history_simulate_button">▶ Mô phỏng lộ trình</string>
+    <string name="history_simulate_running">Đang mô phỏng…</string>
+
+    <!-- Timeline — US-34→US-36 (phase-10) -->
+    <string name="timeline_title">Nhật ký</string>
+    <string name="timeline_day_today">Hôm nay</string>
+    <string name="timeline_day_yesterday">Hôm qua</string>
+    <string name="timeline_event_enter_title">Đã đến %1$s</string>
+    <string name="timeline_event_exit_title">Đã rời %1$s</string>
+    <string name="timeline_empty_title">Chưa có sự kiện nào.</string>
+    <string name="timeline_empty_hint">Tạo zone rồi thử nút mô phỏng lộ trình.</string>
+
+    <!-- Navigation — routing plan phase-05, docs/routing-and-map-attribution.md §3 -->
+    <string name="navigation_title">Chỉ đường</string>
+    <string name="navigation_summary_heading_active">Đang chỉ đường tới %1$s</string>
+    <string name="navigation_summary_heading_arrived">Đã tới nơi</string>
+    <string name="navigation_distance_estimated_suffix">(ước tính)</string>
+    <!-- Không tự ghép chuỗi từ engineId — chỉ nối các dòng `Directions.attribution` provider trả sẵn
+         (docs/routing-and-map-attribution.md §3, mục 1). Đổi tên phase-05: không còn riêng màn Dẫn
+         đường — RoutingAttribution.kt (designsystem/component/) và MapScreen cũng dùng. -->
+    <string name="route_attribution_route">Tuyến đường: %1$s</string>
+    <string name="route_attribution_fallback">Đường thẳng ước tính — chưa có tuyến đường thật</string>
+    <string name="navigation_tracking_banner_message">Bật theo dõi để lấy vị trí của bạn</string>
+    <string name="navigation_enable_tracking_action">Bật theo dõi</string>
+    <string name="navigation_tracking_started_message">Đã bật theo dõi</string>
+    <!-- Hành động trên snackbar lỗi: gửi NavigationIntent.Retry, khởi động lại phiên quan sát
+         để bỏ qua debounce 60s thay vì bắt người dùng đứng chờ hết cửa sổ. -->
+    <string name="navigation_retry_action">Thử lại</string>
+</resources>

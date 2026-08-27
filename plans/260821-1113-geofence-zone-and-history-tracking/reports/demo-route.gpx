@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="FamilyTrackerDemo phase-11" xmlns="http://www.topografix.com/GPX/1/1">
+  <trk>
+    <name>demo-route (cat qua Zone mau, 10.7769,106.7009, r=150m)</name>
+    <trkseg>
+      <trkpt lat="10.7733027" lon="106.7009000"><time>2026-08-22T00:00:00Z</time></trkpt>
+      <trkpt lat="10.7736814" lon="106.7009000"><time>2026-08-22T00:00:01Z</time></trkpt>
+      <trkpt lat="10.7740600" lon="106.7009000"><time>2026-08-22T00:00:03Z</time></trkpt>
+      <trkpt lat="10.7744387" lon="106.7009000"><time>2026-08-22T00:00:04Z</time></trkpt>
+      <trkpt lat="10.7748174" lon="106.7009000"><time>2026-08-22T00:00:06Z</time></trkpt>
+      <trkpt lat="10.7751960" lon="106.7009000"><time>2026-08-22T00:00:07Z</time></trkpt>
+      <trkpt lat="10.7755747" lon="106.7009000"><time>2026-08-22T00:00:09Z</time></trkpt>
+      <trkpt lat="10.7759533" lon="106.7009000"><time>2026-08-22T00:00:11Z</time></trkpt>
+      <trkpt lat="10.7763320" lon="106.7009000"><time>2026-08-22T00:00:12Z</time></trkpt>
+      <trkpt lat="10.7767107" lon="106.7009000"><time>2026-08-22T00:00:14Z</time></trkpt>
+      <trkpt lat="10.7770893" lon="106.7009000"><time>2026-08-22T00:00:15Z</time></trkpt>
+      <trkpt lat="10.7774680" lon="106.7009000"><time>2026-08-22T00:00:17Z</time></trkpt>
+      <trkpt lat="10.7778467" lon="106.7009000"><time>2026-08-22T00:00:18Z</time></trkpt>
+      <trkpt lat="10.7782253" lon="106.7009000"><time>2026-08-22T00:00:20Z</time></trkpt>
+      <trkpt lat="10.7786040" lon="106.7009000"><time>2026-08-22T00:00:22Z</time></trkpt>
+      <trkpt lat="10.7789826" lon="106.7009000"><time>2026-08-22T00:00:23Z</time></trkpt>
+      <trkpt lat="10.7793613" lon="106.7009000"><time>2026-08-22T00:00:25Z</time></trkpt>
+      <trkpt lat="10.7797400" lon="106.7009000"><time>2026-08-22T00:00:26Z</time></trkpt>
+      <trkpt lat="10.7801186" lon="106.7009000"><time>2026-08-22T00:00:28Z</time></trkpt>
+      <trkpt lat="10.7804973" lon="106.7009000"><time>2026-08-22T00:00:30Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

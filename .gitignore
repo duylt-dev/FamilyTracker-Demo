@@ -1,0 +1,24 @@
+*.iml
+.gradle
+.DS_Store
+/build
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.idea
+.kotlin
+
+# Secrets / môi trường cục bộ — không bao giờ commit
+.claude/.env
+.claude/.mcp.json
+.env
+
+# GitNexus — chỉ mục code intelligence cục bộ (~90MB), không commit
+.gitnexus/
+.claude
+AGENTS.md
+LLM.md
+CLAUDE.md
+.gitnexusrc

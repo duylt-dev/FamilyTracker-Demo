@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chuỗi cho `LocationTrackingService`/`TrackingNotification` — sống ở :data vì :data không
+     thấy được strings.xml của :app (chiều phụ thuộc Gradle chỉ đi :app -> :data, LLM.md §2).
+     Xem LLM.md §12 (đã cập nhật) — mỗi module giữ strings.xml của chính chuỗi nó vẽ ra. -->
+<resources>
+    <string name="tracking_notification_title">FamilyTracker</string>
+    <string name="tracking_notification_text">Đang theo dõi gia đình</string>
+    <string name="tracking_notification_stop_action">Dừng theo dõi</string>
+    <string name="tracking_notification_channel_name">Theo dõi vị trí</string>
+
+    <!-- phase-07 — thông báo vào/rời zone (US-22/US-23), khác kênh theo dõi vị trí ở trên. -->
+    <string name="zone_events_channel_name">Sự kiện zone</string>
+    <!-- %1$s = tên thành viên được theo dõi, %2$s = tên zone. Chủ thể của sự kiện zone luôn là
+         một thành viên được theo dõi, không bao giờ là self — xem LLM.md §8.1. -->
+    <string name="zone_notification_enter_title">%1$s đã đến %2$s</string>
+    <string name="zone_notification_exit_title">%1$s đã rời %2$s</string>
+    <string name="zone_notification_unknown_member">Thành viên</string>
+</resources>

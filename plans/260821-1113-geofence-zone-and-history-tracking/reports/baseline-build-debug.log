@@ -1,0 +1,136 @@
+Calculating task graph as configuration cache cannot be reused because file 'settings.gradle.kts' has changed.
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+
+> Task :data:preBuild UP-TO-DATE
+> Task :app:preBuild UP-TO-DATE
+> Task :ui:preBuild UP-TO-DATE
+> Task :data:generateDebugAssets UP-TO-DATE
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :ui:generateDebugAssets UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :ui:preDebugBuild UP-TO-DATE
+> Task :domain:clean
+> Task :domain:processResources NO-SOURCE
+> Task :domain:compileKotlin FROM-CACHE
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :domain:jar
+> Task :ui:clean
+> Task :ui:processDebugNavigationResources FROM-CACHE
+> Task :ui:javaPreCompileDebug FROM-CACHE
+> Task :ui:mapDebugSourceSetPaths
+> Task :ui:generateDebugResources FROM-CACHE
+> Task :ui:extractDeepLinksDebug FROM-CACHE
+> Task :ui:writeDebugAarMetadata
+> Task :ui:prepareLintJarForPublish UP-TO-DATE
+> Task :ui:processDebugManifest FROM-CACHE
+> Task :ui:mergeDebugAssets
+> Task :ui:packageDebugResources FROM-CACHE
+> Task :ui:prepareDebugArtProfile
+> Task :ui:extractDeepLinksForAarDebug FROM-CACHE
+> Task :data:clean
+> Task :ui:parseDebugLocalResources FROM-CACHE
+> Task :data:processDebugNavigationResources FROM-CACHE
+> Task :data:javaPreCompileDebug FROM-CACHE
+> Task :ui:mergeDebugJniLibFolders
+> Task :ui:compileDebugLibraryResources FROM-CACHE
+> Task :data:extractDeepLinksDebug FROM-CACHE
+> Task :data:generateDebugResources FROM-CACHE
+> Task :data:writeDebugAarMetadata
+> Task :data:mapDebugSourceSetPaths
+> Task :ui:generateDebugRFile FROM-CACHE
+> Task :data:mergeDebugAssets
+> Task :data:processDebugManifest FROM-CACHE
+> Task :data:prepareLintJarForPublish UP-TO-DATE
+> Task :data:extractDeepLinksForAarDebug FROM-CACHE
+> Task :data:packageDebugResources FROM-CACHE
+> Task :data:prepareDebugArtProfile
+> Task :ui:mergeDebugNativeLibs NO-SOURCE
+> Task :data:compileDebugLibraryResources FROM-CACHE
+> Task :ui:stripDebugDebugSymbols NO-SOURCE
+> Task :data:mergeDebugJniLibFolders
+> Task :ui:copyDebugJniLibsProjectOnly
+> Task :data:parseDebugLocalResources FROM-CACHE
+> Task :ui:copyDebugJniLibsProjectAndLocalJars
+> Task :data:mergeDebugNativeLibs NO-SOURCE
+> Task :data:stripDebugDebugSymbols NO-SOURCE
+> Task :data:generateDebugRFile FROM-CACHE
+> Task :data:checkDebugAarMetadata
+> Task :ui:checkDebugAarMetadata
+> Task :data:copyDebugJniLibsProjectOnly
+> Task :data:copyDebugJniLibsProjectAndLocalJars
+> Task :data:kspDebugKotlin UP-TO-DATE
+> Task :data:extractDebugAnnotations FROM-CACHE
+> Task :app:clean
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :data:compileDebugKotlin FROM-CACHE
+> Task :data:compileDebugJavaWithJavac NO-SOURCE
+> Task :ui:extractDebugAnnotations
+> Task :app:javaPreCompileDebug FROM-CACHE
+> Task :app:generateDebugResources FROM-CACHE
+> Task :app:generateDebugBuildConfig
+> Task :app:desugarDebugFileDependencies
+> Task :data:bundleLibCompileToJarDebug
+> Task :data:processDebugJavaRes
+> Task :app:mapDebugSourceSetPaths
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:packageDebugResources FROM-CACHE
+> Task :app:processDebugNavigationResources FROM-CACHE
+> Task :data:bundleLibRuntimeToDirDebug
+> Task :app:extractDeepLinksDebug FROM-CACHE
+> Task :app:parseDebugLocalResources FROM-CACHE
+> Task :app:compileDebugNavigationResources FROM-CACHE
+> Task :app:mergeDebugAssets
+> Task :app:mergeDebugJniLibFolders
+> Task :app:checkDebugAarMetadata
+> Task :app:mergeDebugNativeLibs
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :data:mergeDebugGeneratedProguardFiles
+> Task :data:mergeDebugConsumerProguardFiles
+> Task :app:checkDebugDuplicateClasses
+> Task :data:mergeDebugJavaResource
+> Task :app:compressDebugAssets
+> Task :app:mergeDebugResources FROM-CACHE
+> Task :app:generateDebugRFile FROM-CACHE
+> Task :data:syncDebugLibJars
+> Task :data:bundleDebugAar
+> Task :data:assembleDebug
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:generateDebugGlobalSynthetics
+> Task :ui:compileDebugKotlin
+> Task :ui:compileDebugJavaWithJavac NO-SOURCE
+> Task :ui:processDebugJavaRes
+> Task :ui:mergeDebugGeneratedProguardFiles
+> Task :ui:mergeDebugConsumerProguardFiles
+> Task :ui:bundleLibRuntimeToDirDebug
+> Task :ui:bundleLibCompileToJarDebug
+> Task :ui:mergeDebugJavaResource
+> Task :app:processDebugManifestForPackage
+> Task :ui:syncDebugLibJars
+> Task :ui:bundleDebugAar
+> Task :ui:assembleDebug
+> Task :app:stripDebugDebugSymbols
+> Task :app:mergeLibDexDebug
+> Task :app:compileDebugKotlin
+> Task :app:processDebugJavaRes
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeExtDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:createDebugApkListingFileRedirect
+
+BUILD SUCCESSFUL in 30s
+103 actionable tasks: 68 executed, 32 from cache, 3 up-to-date
+Configuration cache entry stored.

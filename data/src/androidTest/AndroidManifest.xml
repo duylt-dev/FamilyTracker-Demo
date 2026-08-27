@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- phase-07, GeofenceRegistrarTest. `:data:connectedDebugAndroidTest` runs under its own
+         self-instrumenting test package (com.example.pion.family.tracker.demo.data.test) —
+         it does NOT inherit permissions declared in :app/AndroidManifest.xml (LLM.md §10). Android
+         only lets `GrantPermissionRule` grant a permission the TARGET package's own manifest
+         declares, so it has to be repeated here even though the real app already declares it. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+</manifest>

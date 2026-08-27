@@ -1,0 +1,274 @@
+{
+    "trip": {
+        "locations": [
+            {
+                "type": "break",
+                "lat": 21.0285,
+                "lon": 105.8542,
+                "side_of_street": "left",
+                "original_index": 0
+            },
+            {
+                "type": "break",
+                "lat": 21.0378,
+                "lon": 105.8342,
+                "original_index": 1
+            }
+        ],
+        "legs": [
+            {
+                "maneuvers": [
+                    {
+                        "type": 3,
+                        "instruction": "Drive west on Ph\u1ed1 Tr\u1ea7n Nguy\u00ean H\u00e3n.",
+                        "verbal_succinct_transition_instruction": "Drive west. Then Turn right onto Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng.",
+                        "verbal_pre_transition_instruction": "Drive west on Ph\u1ed1 Tr\u1ea7n Nguy\u00ean H\u00e3n. Then Turn right onto Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng.",
+                        "verbal_post_transition_instruction": "Continue for 40 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 Tr\u1ea7n Nguy\u00ean H\u00e3n"
+                        ],
+                        "bearing_after": 264,
+                        "time": 8.724,
+                        "length": 0.038,
+                        "cost": 10.242,
+                        "begin_shape_index": 0,
+                        "end_shape_index": 2,
+                        "has_time_restrictions": true,
+                        "verbal_multi_cue": true,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng.",
+                        "verbal_transition_alert_instruction": "Turn right onto Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng.",
+                        "verbal_succinct_transition_instruction": "Turn right.",
+                        "verbal_pre_transition_instruction": "Turn right onto Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng.",
+                        "verbal_post_transition_instruction": "Continue for 500 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 \u0110inh Ti\u00ean Ho\u00e0ng"
+                        ],
+                        "bearing_before": 265,
+                        "bearing_after": 8,
+                        "time": 90.403,
+                        "length": 0.526,
+                        "cost": 132.735,
+                        "begin_shape_index": 2,
+                        "end_shape_index": 33,
+                        "has_time_restrictions": true,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5.",
+                        "verbal_transition_alert_instruction": "Turn right onto Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5.",
+                        "verbal_succinct_transition_instruction": "Turn right. Then Turn left onto Ph\u1ed1 H\u00e0ng Gai.",
+                        "verbal_pre_transition_instruction": "Turn right onto Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5. Then Turn left onto Ph\u1ed1 H\u00e0ng Gai.",
+                        "verbal_post_transition_instruction": "Continue for 60 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 L\u00ea Th\u00e1i T\u1ed5"
+                        ],
+                        "bearing_before": 243,
+                        "bearing_after": 0,
+                        "time": 16.677,
+                        "length": 0.06,
+                        "cost": 21.157,
+                        "begin_shape_index": 33,
+                        "end_shape_index": 36,
+                        "has_time_restrictions": true,
+                        "verbal_multi_cue": true,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 15,
+                        "instruction": "Turn left onto Ph\u1ed1 H\u00e0ng Gai.",
+                        "verbal_transition_alert_instruction": "Turn left onto Ph\u1ed1 H\u00e0ng Gai.",
+                        "verbal_succinct_transition_instruction": "Turn left.",
+                        "verbal_pre_transition_instruction": "Turn left onto Ph\u1ed1 H\u00e0ng Gai.",
+                        "verbal_post_transition_instruction": "Continue for 900 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 H\u00e0ng Gai"
+                        ],
+                        "bearing_before": 1,
+                        "bearing_after": 275,
+                        "time": 175.154,
+                        "length": 0.886,
+                        "cost": 332.849,
+                        "begin_shape_index": 36,
+                        "end_shape_index": 62,
+                        "has_time_restrictions": true,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto \u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7.",
+                        "verbal_transition_alert_instruction": "Turn right onto \u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7.",
+                        "verbal_succinct_transition_instruction": "Turn right.",
+                        "verbal_pre_transition_instruction": "Turn right onto \u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7.",
+                        "verbal_post_transition_instruction": "Continue for 400 meters.",
+                        "street_names": [
+                            "\u0110\u01b0\u1eddng \u0110i\u1ec7n Bi\u00ean Ph\u1ee7"
+                        ],
+                        "bearing_before": 235,
+                        "bearing_after": 305,
+                        "time": 74.37,
+                        "length": 0.418,
+                        "cost": 113.774,
+                        "begin_shape_index": 62,
+                        "end_shape_index": 81,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 16,
+                        "instruction": "Bear left onto Ph\u1ed1 Tr\u1ea7n Ph\u00fa.",
+                        "verbal_transition_alert_instruction": "Bear left onto Ph\u1ed1 Tr\u1ea7n Ph\u00fa.",
+                        "verbal_succinct_transition_instruction": "Bear left.",
+                        "verbal_pre_transition_instruction": "Bear left onto Ph\u1ed1 Tr\u1ea7n Ph\u00fa.",
+                        "verbal_post_transition_instruction": "Continue for 700 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 Tr\u1ea7n Ph\u00fa"
+                        ],
+                        "bearing_before": 317,
+                        "bearing_after": 282,
+                        "time": 123.688,
+                        "length": 0.728,
+                        "cost": 180.881,
+                        "begin_shape_index": 81,
+                        "end_shape_index": 101,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto \u0110\u01b0\u1eddng H\u00f9ng V\u01b0\u01a1ng.",
+                        "verbal_transition_alert_instruction": "Turn right onto \u0110\u01b0\u1eddng H\u00f9ng V\u01b0\u01a1ng.",
+                        "verbal_succinct_transition_instruction": "Turn right.",
+                        "verbal_pre_transition_instruction": "Turn right onto \u0110\u01b0\u1eddng H\u00f9ng V\u01b0\u01a1ng.",
+                        "verbal_post_transition_instruction": "Continue for 200 meters.",
+                        "street_names": [
+                            "\u0110\u01b0\u1eddng H\u00f9ng V\u01b0\u01a1ng"
+                        ],
+                        "bearing_before": 281,
+                        "bearing_after": 11,
+                        "time": 49.523,
+                        "length": 0.229,
+                        "cost": 65.152,
+                        "begin_shape_index": 101,
+                        "end_shape_index": 106,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 15,
+                        "instruction": "Turn left onto Ph\u1ed1 L\u00ea H\u1ed3ng Phong.",
+                        "verbal_transition_alert_instruction": "Turn left onto Ph\u1ed1 L\u00ea H\u1ed3ng Phong.",
+                        "verbal_succinct_transition_instruction": "Turn left.",
+                        "verbal_pre_transition_instruction": "Turn left onto Ph\u1ed1 L\u00ea H\u1ed3ng Phong.",
+                        "verbal_post_transition_instruction": "Continue for 300 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 L\u00ea H\u1ed3ng Phong"
+                        ],
+                        "bearing_before": 11,
+                        "bearing_after": 281,
+                        "time": 69.337,
+                        "length": 0.314,
+                        "cost": 128.63,
+                        "begin_shape_index": 106,
+                        "end_shape_index": 116,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto Ph\u1ed1 Ng\u1ecdc H\u00e0.",
+                        "verbal_transition_alert_instruction": "Turn right onto Ph\u1ed1 Ng\u1ecdc H\u00e0.",
+                        "verbal_succinct_transition_instruction": "Turn right.",
+                        "verbal_pre_transition_instruction": "Turn right onto Ph\u1ed1 Ng\u1ecdc H\u00e0.",
+                        "verbal_post_transition_instruction": "Continue for 400 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 Ng\u1ecdc H\u00e0"
+                        ],
+                        "bearing_before": 248,
+                        "bearing_after": 354,
+                        "time": 70.559,
+                        "length": 0.351,
+                        "cost": 142.468,
+                        "begin_shape_index": 116,
+                        "end_shape_index": 140,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 10,
+                        "instruction": "Turn right onto Ph\u1ed1 B\u1eafc S\u01a1n.",
+                        "verbal_transition_alert_instruction": "Turn right onto Ph\u1ed1 B\u1eafc S\u01a1n.",
+                        "verbal_succinct_transition_instruction": "Turn right.",
+                        "verbal_pre_transition_instruction": "Turn right onto Ph\u1ed1 B\u1eafc S\u01a1n.",
+                        "verbal_post_transition_instruction": "Continue for 200 meters.",
+                        "street_names": [
+                            "Ph\u1ed1 B\u1eafc S\u01a1n"
+                        ],
+                        "bearing_before": 359,
+                        "bearing_after": 101,
+                        "time": 63.589,
+                        "length": 0.217,
+                        "cost": 94.113,
+                        "begin_shape_index": 140,
+                        "end_shape_index": 142,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    },
+                    {
+                        "type": 4,
+                        "instruction": "You have arrived at your destination.",
+                        "verbal_transition_alert_instruction": "You will arrive at your destination.",
+                        "verbal_pre_transition_instruction": "You have arrived at your destination.",
+                        "bearing_before": 8,
+                        "time": 0.0,
+                        "length": 0.0,
+                        "cost": 0.0,
+                        "begin_shape_index": 142,
+                        "end_shape_index": 142,
+                        "travel_mode": "drive",
+                        "travel_type": "car"
+                    }
+                ],
+                "summary": {
+                    "has_time_restrictions": true,
+                    "has_toll": false,
+                    "has_highway": false,
+                    "has_ferry": false,
+                    "min_lat": 21.028344,
+                    "min_lon": 105.831048,
+                    "max_lat": 21.037902,
+                    "max_lon": 105.854164,
+                    "time": 742.029,
+                    "length": 3.768,
+                    "cost": 1222.006
+                },
+                "shape": "a}nbg@ily{hEn@~NRlFiJy@oJWsT[so@eAuE`AgDt@iChAaI|EyBxA{XnNmFrCyOtIcAbAo@dA]hBQvAS~BW`DsApTeAlPq@|GWnCWpAoArCo@vB_@hDDtDf@hDbArD|@fCbAvB{KA{LG_FCY`Go@vUp@|GzAvEzCrFp_@|o@tQ|[fBlD~AvDnHnPpB~Er@jBhM|[xTph@~W`m@`ElIbB|Dfi@tqAzA`DvCpH~DvJ`DpHjA~Br@hBhPp\\jArBnAxEfAdEdBlEbDbHcAvC_B`CmS~RyBxB_QrPaE|DkP`PkChCqIhIcJ|ImArCsLnLmLhLaG~FgL`LaBzN_ArI_BtNoQ|~Am@vFe@vEk@pE}Hpr@wE~a@wGxl@m@dFm@tFuB`RqBrQQ|AaBzNyArMQzAwEhb@iAhLoH_AocAmMmHcAs_@wEsEk@aAbJ{Fxi@oB~FsATgAtA]zAcC|p@kCxt@V~DzArBsDSyFnAeD|@wCt@qGfBoIvBgFnA_AXkIfBwDz@gGlAuKxB_F~@}MnBaInAqDn@_Fv@oD^eFNkD@oHDoEHaSNoCB`NwtAyf@uD"
+            }
+        ],
+        "summary": {
+            "has_time_restrictions": true,
+            "has_toll": false,
+            "has_highway": false,
+            "has_ferry": false,
+            "min_lat": 21.028344,
+            "min_lon": 105.831048,
+            "max_lat": 21.037902,
+            "max_lon": 105.854164,
+            "time": 742.029,
+            "length": 3.768,
+            "cost": 1222.006
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+    }
+}

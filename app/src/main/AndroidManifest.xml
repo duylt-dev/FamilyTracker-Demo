@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- LLM.md §10, phase-04 Implementation Step 1.
+
+         fix-zone-follows-members: RECEIVE_BOOT_COMPLETED đã gỡ cùng `BootCompletedReceiver` — không
+         còn thành phần nào chờ broadcast đó, và một quyền không ai dùng chỉ là mặt tấn công thừa.
+         ACCESS_BACKGROUND_LOCATION thì GIỮ LẠI dù đường Geofencing API đã biến mất: bước 3 của
+         luồng xin quyền (`PermissionStep.BACKGROUND_LOCATION`, PRD §4.3 Flow 1) vẫn đọc nó qua
+         `Context.currentPermissionStatus()`, và xin một quyền chưa khai trong manifest thì hệ thống
+         từ chối thẳng, khiến màn hình quyền kẹt vĩnh viễn ở bước không bao giờ qua được. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+
+    <!-- phase-01, routing plan Implementation Step 4 — every routing endpoint (GraphHopper Cloud,
+         Stadia Maps, valhalla1.openstreetmap.de) is HTTPS, so no network_security_config.xml is
+         needed here. Self-hosting Valhalla over plain HTTP is phase-03's problem, not this one's. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- phase-07, US-47/D8 — ConnectivityManager.registerDefaultNetworkCallback() ném
+         SecurityException nếu thiếu quyền này. Quyền `normal`: hệ thống cấp lúc cài, KHÔNG
+         hỏi runtime, KHÔNG thêm bước nào vào luồng onboarding 3 bước (LLM.md §10). -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".FamilyTrackerApp"
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FamilyTrackerDemo">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.FamilyTrackerDemo"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
+
+        <!-- API 34+: foregroundServiceType bắt buộc, thiếu -> MissingForegroundServiceTypeException
+             LÚC CHẠY khi startForeground() (build vẫn xanh) — LLM.md §10, ENV-BRIEFING lưu ý API cao. -->
+        <service
+            android:name="com.example.pion.family.tracker.demo.data.location.LocationTrackingService"
+            android:exported="false"
+            android:foregroundServiceType="location" />
+    </application>
+
+</manifest>

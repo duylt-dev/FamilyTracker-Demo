@@ -1,0 +1,37 @@
+# Mẫu của `local.properties`. Copy sang `local.properties` rồi điền giá trị thật.
+# `local.properties` nằm trong .gitignore và KHÔNG BAO GIỜ được commit — file này thì có,
+# nên mọi giá trị ở đây phải để trống.
+
+# Android SDK — Android Studio tự sinh dòng này.
+sdk.dir=
+
+# Google Maps SDK for Android. Lấy tại https://console.cloud.google.com/google/maps-apis
+# Đọc vào manifestPlaceholders["MAPS_API_KEY"]. Thiếu -> bản đồ hiện màu xám trống.
+MAPS_API_KEY=
+
+# ---------------------------------------------------------------------------
+# Routing — plan 260824-1335-pluggable-routing-provider
+# ---------------------------------------------------------------------------
+# Engine chọn LÚC BUILD. Giá trị hợp lệ: GRAPHHOPPER | VALHALLA (tên enum RoutingEngine).
+# Gõ sai -> app nổ ngay lúc khởi động ở `RoutingEngine.valueOf` — CỐ Ý, xem phase-01 Step 11.
+# Bỏ trống -> mặc định GRAPHHOPPER.
+ROUTING_ENGINE=GRAPHHOPPER
+
+# BẮT BUỘC khi ROUTING_ENGINE=GRAPHHOPPER.
+# Lấy tại https://www.graphhopper.com/dashboard/#/api-keys
+# Free tier: 500 credit/ngày, non-commercial, profile CHỈ có [car, bike, foot]
+# (đã kiểm thật 2026-08-24 — motorcycle/scooter trả 400). Đặt quota trần ngay khi tạo key:
+# key nằm trong BuildConfig, tức nằm trong APK, `strings` là đọc được.
+GRAPHHOPPER_API_KEY=
+
+# Chỉ dùng khi ROUTING_ENGINE=VALHALLA và host là Stadia Maps.
+# Lấy tại https://client.stadiamaps.com/ — free tier 200.000 credit/tháng, non-commercial.
+# Để trống thì provider không gắn query param `api_key` (đúng cho FOSSGIS và self-host).
+STADIA_API_KEY=
+
+# Chỉ dùng khi ROUTING_ENGINE=VALHALLA. Ba lựa chọn:
+#   https://api.stadiamaps.com/route/v1      Stadia Maps — dùng cho bản demo phát hành
+#   https://valhalla1.openstreetmap.de       FOSSGIS — CHỈ dev. Fair-use 1 req/giây, hạ tầng
+#                                            tình nguyện, phải gửi header X-Client-Id
+#   http://<host>:8002                       self-host Docker — cần network_security_config.xml
+VALHALLA_BASE_URL=

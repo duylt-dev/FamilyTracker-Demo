@@ -1,0 +1,360 @@
+==========================================
+Gate log — routing plan 260824-1335
+Chạy: 2026-08-24  ·  Máy: macOS 26.5.2
+HEAD: 9c049db feat(navigation): draw the route on the map with required attribution
+==========================================
+
+### G1 — assembleDebug assembleRelease
+Calculating task graph as configuration cache cannot be reused because JVM has changed.
+
+> Configure project :app
+WARNING: The option setting 'android.disallowKotlinSourceSets=false' is experimental.
+The current default is 'true'.
+
+> Task :domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :ui:preBuild UP-TO-DATE
+> Task :data:generateDebugAssets UP-TO-DATE
+> Task :ui:generateDebugAssets UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :data:preBuild UP-TO-DATE
+> Task :domain:processResources NO-SOURCE
+> Task :data:prepareLintJarForPublish UP-TO-DATE
+> Task :ui:prepareLintJarForPublish UP-TO-DATE
+> Task :ui:preReleaseBuild UP-TO-DATE
+> Task :ui:preDebugBuild UP-TO-DATE
+> Task :data:preDebugBuild UP-TO-DATE
+> Task :ui:javaPreCompileDebug UP-TO-DATE
+> Task :data:javaPreCompileDebug UP-TO-DATE
+> Task :ui:generateDebugResources UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :data:processDebugNavigationResources UP-TO-DATE
+> Task :data:generateDebugResources UP-TO-DATE
+> Task :ui:processDebugNavigationResources UP-TO-DATE
+> Task :data:mergeDebugAssets UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :ui:packageDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugGlobalSynthetics UP-TO-DATE
+> Task :ui:writeDebugAarMetadata UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :ui:mergeDebugAssets UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :data:writeDebugAarMetadata UP-TO-DATE
+> Task :data:extractDeepLinksDebug UP-TO-DATE
+> Task :ui:parseDebugLocalResources UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :data:packageDebugResources UP-TO-DATE
+> Task :domain:compileKotlin UP-TO-DATE
+> Task :ui:extractDeepLinksDebug UP-TO-DATE
+> Task :ui:generateDebugRFile UP-TO-DATE
+> Task :data:parseDebugLocalResources UP-TO-DATE
+> Task :data:processDebugManifest UP-TO-DATE
+> Task :domain:compileJava NO-SOURCE
+> Task :domain:classes UP-TO-DATE
+> Task :ui:processDebugManifest UP-TO-DATE
+> Task :data:mapDebugSourceSetPaths UP-TO-DATE
+> Task :ui:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :domain:jar UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :data:generateDebugRFile UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compileDebugNavigationResources UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :data:compileDebugLibraryResources UP-TO-DATE
+> Task :ui:compileDebugLibraryResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :ui:mergeDebugJniLibFolders UP-TO-DATE
+> Task :ui:mergeDebugNativeLibs NO-SOURCE
+> Task :data:kspDebugKotlin UP-TO-DATE
+> Task :data:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :data:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :data:prepareDebugArtProfile UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :data:mergeDebugNativeLibs NO-SOURCE
+> Task :ui:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :data:checkDebugAarMetadata UP-TO-DATE
+> Task :ui:stripDebugDebugSymbols NO-SOURCE
+> Task :data:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :data:extractDebugAnnotations UP-TO-DATE
+> Task :data:stripDebugDebugSymbols NO-SOURCE
+> Task :ui:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :ui:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :ui:prepareDebugArtProfile UP-TO-DATE
+> Task :ui:checkDebugAarMetadata UP-TO-DATE
+> Task :data:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :ui:generateReleaseResources UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :data:preReleaseBuild UP-TO-DATE
+> Task :data:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :ui:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :ui:mergeReleaseNativeLibs NO-SOURCE
+> Task :ui:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :ui:javaPreCompileRelease UP-TO-DATE
+> Task :ui:processReleaseNavigationResources UP-TO-DATE
+> Task :ui:packageReleaseResources UP-TO-DATE
+> Task :data:processReleaseNavigationResources UP-TO-DATE
+> Task :ui:parseReleaseLocalResources UP-TO-DATE
+> Task :data:javaPreCompileRelease UP-TO-DATE
+> Task :data:mergeReleaseNativeLibs NO-SOURCE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :data:generateReleaseResources UP-TO-DATE
+> Task :data:copyReleaseJniLibsProjectOnly UP-TO-DATE
+> Task :ui:extractDebugAnnotations UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:checkReleaseDuplicateClasses UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :ui:generateReleaseRFile UP-TO-DATE
+> Task :ui:compileDebugKotlin UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :ui:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:processReleaseNavigationResources UP-TO-DATE
+> Task :data:packageReleaseResources UP-TO-DATE
+> Task :ui:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
+> Task :ui:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :ui:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :ui:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :ui:processDebugJavaRes UP-TO-DATE
+> Task :app:extractReleaseNativeSymbolTables UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :data:writeReleaseAarMetadata UP-TO-DATE
+> Task :data:parseReleaseLocalResources UP-TO-DATE
+> Task :ui:writeReleaseAarMetadata UP-TO-DATE
+> Task :data:compileDebugKotlin UP-TO-DATE
+> Task :app:packageReleaseResources UP-TO-DATE
+> Task :app:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :ui:mergeDebugJavaResource UP-TO-DATE
+> Task :data:generateReleaseRFile UP-TO-DATE
+> Task :data:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:parseReleaseLocalResources UP-TO-DATE
+> Task :data:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :app:checkReleaseAarMetadata UP-TO-DATE
+> Task :data:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :data:kspReleaseKotlin UP-TO-DATE
+> Task :data:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :data:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :ui:syncDebugLibJars UP-TO-DATE
+> Task :data:processDebugJavaRes UP-TO-DATE
+> Task :app:compileReleaseNavigationResources UP-TO-DATE
+> Task :ui:bundleDebugAar UP-TO-DATE
+> Task :data:mergeDebugJavaResource UP-TO-DATE
+> Task :app:generateReleaseRFile UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :ui:assembleDebug UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksRelease UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :data:extractDeepLinksRelease UP-TO-DATE
+> Task :ui:extractDeepLinksRelease UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :data:syncDebugLibJars UP-TO-DATE
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :data:prepareReleaseArtProfile UP-TO-DATE
+> Task :data:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :ui:prepareReleaseArtProfile UP-TO-DATE
+> Task :ui:mapReleaseSourceSetPaths UP-TO-DATE
+> Task :data:compileReleaseLibraryResources UP-TO-DATE
+> Task :ui:compileReleaseLibraryResources UP-TO-DATE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :data:generateReleaseAssets UP-TO-DATE
+> Task :ui:generateReleaseAssets UP-TO-DATE
+> Task :data:processReleaseManifest UP-TO-DATE
+> Task :app:desugarReleaseFileDependencies UP-TO-DATE
+> Task :ui:processReleaseManifest UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :data:bundleDebugAar UP-TO-DATE
+> Task :data:mergeReleaseAssets UP-TO-DATE
+> Task :data:assembleDebug UP-TO-DATE
+> Task :ui:mergeReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseArtProfile UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :data:extractProguardFiles UP-TO-DATE
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :data:compileReleaseKotlin UP-TO-DATE
+> Task :ui:compileReleaseKotlin UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:processReleaseMainManifest UP-TO-DATE
+> Task :ui:extractProguardFiles UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :ui:stripReleaseDebugSymbols NO-SOURCE
+> Task :app:compressReleaseAssets UP-TO-DATE
+> Task :app:mergeExtDexRelease UP-TO-DATE
+> Task :ui:checkReleaseAarMetadata UP-TO-DATE
+> Task :ui:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :ui:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:processReleaseManifestForPackage UP-TO-DATE
+> Task :data:compileReleaseJavaWithJavac NO-SOURCE
+> Task :ui:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :ui:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :data:bundleLibRuntimeToDirRelease UP-TO-DATE
+> Task :data:processReleaseJavaRes UP-TO-DATE
+> Task :ui:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :data:bundleLibCompileToJarRelease UP-TO-DATE
+> Task :data:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :data:createFullJarRelease UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :ui:extractReleaseAnnotations UP-TO-DATE
+> Task :ui:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :ui:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :ui:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :data:stripReleaseDebugSymbols NO-SOURCE
+> Task :data:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :ui:processReleaseJavaRes UP-TO-DATE
+> Task :data:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :data:checkReleaseAarMetadata UP-TO-DATE
+> Task :data:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :ui:createFullJarRelease UP-TO-DATE
+> Task :data:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :data:generateReleaseLintModel UP-TO-DATE
+> Task :ui:mergeReleaseJavaResource UP-TO-DATE
+> Task :data:extractReleaseAnnotations UP-TO-DATE
+> Task :data:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :data:mergeReleaseJavaResource UP-TO-DATE
+> Task :ui:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :data:lintVitalAnalyzeRelease UP-TO-DATE
+> Task :data:generateReleaseLintVitalModel UP-TO-DATE
+> Task :ui:syncReleaseLibJars UP-TO-DATE
+> Task :data:syncReleaseLibJars UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:assembleDebug UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:processReleaseJavaRes UP-TO-DATE
+> Task :ui:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :app:optimizeReleaseResources UP-TO-DATE
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :data:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :ui:generateReleaseLintModel UP-TO-DATE
+> Task :app:validateSigningRelease UP-TO-DATE
+> Task :app:writeReleaseSigningConfigVersions UP-TO-DATE
+> Task :app:writeReleaseAppMetadata UP-TO-DATE
+> Task :ui:generateReleaseLintVitalModel UP-TO-DATE
+> Task :data:bundleReleaseAar UP-TO-DATE
+> Task :app:collectReleaseDependencies UP-TO-DATE
+> Task :ui:bundleReleaseAar UP-TO-DATE
+> Task :ui:lintVitalAnalyzeRelease UP-TO-DATE
+> Task :app:mergeReleaseJavaResource UP-TO-DATE
+> Task :app:sdkReleaseDependencyData UP-TO-DATE
+> Task :app:dexBuilderRelease UP-TO-DATE
+> Task :app:mergeDexRelease UP-TO-DATE
+> Task :data:mergeReleaseResources UP-TO-DATE
+> Task :ui:mergeReleaseResources UP-TO-DATE
+> Task :data:verifyReleaseResources UP-TO-DATE
+> Task :data:assembleRelease UP-TO-DATE
+> Task :app:generateReleaseLintVitalReportModel UP-TO-DATE
+> Task :ui:verifyReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseGlobalSynthetics UP-TO-DATE
+> Task :ui:assembleRelease UP-TO-DATE
+> Task :app:compileReleaseArtProfile UP-TO-DATE
+> Task :app:lintVitalAnalyzeRelease UP-TO-DATE
+> Task :app:lintVitalReportRelease
+> Task :app:lintVitalRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:createReleaseApkListingFileRedirect UP-TO-DATE
+
+BUILD SUCCESSFUL in 2s
+226 actionable tasks: 4 executed, 222 up-to-date
+Configuration cache entry stored.
+G1_EXIT=
+
+(G8: 0 dòng cảnh báo 'w:', không có cảnh báo stdlib — phase-01 Key Insight #1)
+
+### APK sinh ra
+app/build/outputs/apk/release/app-release.apk 29M
+app/build/outputs/apk/debug/app-debug.apk 38M
+
+### G2–G5 — test bốn module
+> Task :data:test
+> Task :app:testDebugUnitTest
+
+BUILD SUCCESSFUL in 8s
+72 actionable tasks: 72 executed
+Configuration cache entry stored.
+
+Kết quả test (đọc từ JUnit XML, không đọc từ dòng tóm tắt của Gradle):
+  G2  :domain  tests=90   failures=0  errors=0  time=0.197s
+  G3  :data    tests=34   failures=0  errors=0  time=0.387s
+  G4  :ui      tests=79   failures=0  errors=0  time=0.332s
+  G5  :app     tests=1    failures=0  errors=0  time=0.226s
+  TỔNG      tests=204  failures=0  errors=0
+TEST-com.example.pion.family.tracker.demo.ui.core.mvi.CoroutineSafetyArchitectureTest.xml
+
+(G4 kèm test ghim attribution — hai test dưới đây phải có mặt và xanh:)
+    [xanh] fallback state never shows OSM credit — attributionLines is empty
+    [xanh] a successful route populates directions, distance and non-empty OSM attribution
+
+### G9 — không rò key
+a) grep GRAPHHOPPER_API_KEY|STADIA_API_KEY trong toàn bộ source .kt:
+    app/src/main/java/com/example/pion/family/tracker/demo/FamilyTrackerApp.kt:93:            graphHopperApiKey = BuildConfig.GRAPHHOPPER_API_KEY,
+    app/src/main/java/com/example/pion/family/tracker/demo/FamilyTrackerApp.kt:94:            stadiaApiKey = BuildConfig.STADIA_API_KEY,
+    -> chỉ FamilyTrackerApp.kt, đúng như gate đòi
+
+b) git status --porcelain local.properties:
+    (rỗng = chưa bao giờ được track)
+
+c) git log -p -- local.properties (Success Criteria #4):
+    (rỗng = không có trong lịch sử git)
+
+d) grep key thật trong fixture:
+.gitignore:9:local.properties	local.properties
+
+### G6 — đổi engine bằng một dòng local.properties
+Cùng một cây mã nguồn. Chỉ đổi ROUTING_ENGINE, build lại :app:assembleDebug, cài lại,
+chạy lại đúng một thao tác (chọn "Minh" -> "Chỉ đường"). Không sửa một dòng nào ở :domain hay :ui.
+
+  ROUTING_ENGINE=GRAPHHOPPER  -> "Tuyến đường: GraphHopper · OpenStreetMap contributors"
+                                 tuyến 2.0 km, 4 phút   [g7-attribution-graphhopper.png]
+  ROUTING_ENGINE=VALHALLA     -> "Tuyến đường: Valhalla · OpenStreetMap contributors"
+                                 tuyến 1.9 km, 6 phút   [g6-attribution-valhalla.png]
+
+Hai điều đọc được từ cặp ảnh này:
+  1. Cổng RoutingProvider là thật. Hai engine khác nhau hoàn toàn về wire format
+     (GET+query vs POST+JSON body, paths[].points vs trip.legs[].shape, mét vs kilômét,
+     precision 5 vs 6) mà :domain và :ui không đổi một ký tự.
+  2. Precision 6 của Valhalla được giải mã ĐÚNG. Tuyến Valhalla bám đúng phố Sài Gòn.
+     Nếu PolylineDecoder dùng nhầm precision 5 trên dữ liệu Valhalla thì toạ độ lệch đúng
+     10 lần và tuyến sẽ rơi ra ngoài Sumatra — sai lệch đó nhìn ảnh là thấy ngay.
+     Đây là thứ mà unit test đã ghim, và ảnh này xác nhận lại trên máy thật.
+
+Sau khi đo xong: local.properties đã khôi phục về GRAPHHOPPER.
+
+### G7 — attribution (điều kiện pháp lý)
+Ảnh: g7-attribution-graphhopper.png — trong MỘT khung hình thấy đồng thời cả ba thứ mà
+phase-06 Risk Assessment đòi:
+  - polyline tuyến đường (magenta) đang vẽ trên bản đồ Google
+  - "Tuyến đường: GraphHopper · OpenStreetMap contributors" ở dải riêng DƯỚI khung bản đồ
+  - logo Google ở góc dưới-trái BÊN TRONG khung bản đồ, không bị che, không bị dịch
+
+Một lỗi thật phát hiện được nhờ chụp ảnh chứ không nhờ đọc code:
+  Màu polyline ban đầu là hổ phách 0xFFFFD600. Nó không trùng màu nào của app — nhưng
+  Google tô đường chính của basemap mặc định bằng ĐÚNG dải vàng đó, nên tuyến đường đọc
+  như một con phố của Google chứ không phải lớp phủ của ta. Đó chính là điều mà yêu cầu
+  "visually distinguish Google Maps Platform Content from other content" cấm.
+  Ảnh bản bị loại: g7-rejected-amber-route-color.png
+  Đã đổi sang magenta 0xFFE10098 (hue ~320°, khoảng trống lớn nhất giữa các sắc độ mà
+  basemap Google và bảng màu app đang dùng). Lý do ghi trong KDoc của NavigationRouteColor.
